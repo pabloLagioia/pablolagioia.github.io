@@ -6,14 +6,14 @@ const Resume = () => <Layout>
     <h1 className="fun">Resume</h1>
     <section>
       <h2>Experience</h2>
-      <Experience
+      {/* <Experience
         dates="Feb, 2021 - Present day"
         company="GLG"
         role="Engineering Manager"
         >
           Tasked with building a team of contractors to join the ranks of GLG I went ahead to assemble and lead a team of 6 developers to produce value for internal GLG clients on our quest to enhance the number one insights network.
           Our success on creating apps from scratch and improve existing apps lead to the growth of the contractor based team.
-        </Experience>
+        </Experience> */}
       <Experience
         dates="Nov, 2021 - Present day"
         company="FactoryFix"

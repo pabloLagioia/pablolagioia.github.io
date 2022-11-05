@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { FaLinkedin, FaNpm, FaGithub } from 'react-icons/fa'
+import Image from "next/image"
 
 const Profile = ({ large } = { large: false }) => <aside className={`profile ${large ? "large" : ""}`}>
   <header>
-    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGDBGka9xO9Gw/profile-displayphoto-shrink_200_200/0/1639353370234?e=1672272000&v=beta&t=rX0xexOvjeUkKwnCKOc7Ax_Dy6aT7gxm6KhGvqNnjZU" />
+    <Image src="https://media-exp1.licdn.com/dms/image/C5603AQGDBGka9xO9Gw/profile-displayphoto-shrink_200_200/0/1639353370234?e=1672272000&v=beta&t=rX0xexOvjeUkKwnCKOc7Ax_Dy6aT7gxm6KhGvqNnjZU" />
     <h1>Pablo Lagioia</h1>
     <p>Solutions Architect</p>
   </header>

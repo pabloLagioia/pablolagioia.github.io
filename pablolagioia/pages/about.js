@@ -13,14 +13,14 @@ const About = () => <Layout>
     <section className="flex">
       <div className="summary">
         <p>
-          I'm a seasoned software developer who's been working in the industry for over {new Date().getFullYear() - 2007} years.
+          I&apos;m a seasoned software developer who&apos;s been working in the industry for over {new Date().getFullYear() - 2007} years.
           During the time I wore multiple hats: Fullstack developer, Tech Lead, Architect, Engineering Manager and Teacher.
         </p>
         <p>
-          I'm in love with clean architecture and I'm passionate about JavaScript, the web, gaming and clean coding.
+          I&apos;m in love with clean architecture and I&apos;m passionate about JavaScript, the web, gaming and clean coding.
         </p>
         <p>
-          I've latelly moved from running projects the agile way to running them with Shapeup with great results.
+          I&apos;ve latelly moved from running projects the agile way to running them with Shapeup with great results.
         </p>
       </div>
       <ol className="personal-data no-margin">
@@ -55,7 +55,7 @@ const About = () => <Layout>
         </li>
         <li className="mar-top-10 mar-bot-10">
           <Perk title="Architect" icon={<FaBuilding size={35}/>}>
-            Architecture is one of my favorite subjects and I'm glad I've been able to work extensively with not only AWS and multiple of their products
+            Architecture is one of my favorite subjects and I&apos;m glad I&apos;ve been able to work extensively with not only AWS and multiple of their products
             but also with Google Cloud. Having to migrate monoliths to microservices helped me learn technologies such as Terraform and look for practices 
             such as Clean Architecture to help produce well defined domain boundaries that scale.
             I went ahead and got certified by <Link href="https://www.chrisrichardson.net/">Chris Richardson</Link> on the <Link href="https://microservices.io/adopt/index.html">microservices subject</Link>.
@@ -63,13 +63,13 @@ const About = () => <Layout>
         </li>
         <li className="mar-top-10 mar-bot-10">
           <Perk title="Hiring" icon={<FaUserPlus size={35}/>}>
-            I've been tasked to put together multiple team of developers now. I've participated in contacting, evaluating, creating a proposal and then help and mentor them while on my teams.
+            I&apos;ve been tasked to put together multiple team of developers now. I&apos;ve participated in contacting, evaluating, creating a proposal and then help and mentor them while on my teams.
             I enjoy doing this as it gives me the opportunity to meet new people, help them get great jobs and it makes me proud to see them go up the ladder.
           </Perk>
         </li>
         <li className="mar-top-10 mar-bot-10">
           <Perk title="Teacher" icon={<FaChalkboardTeacher size={35}/>}>
-            I've taught courses on HTML5, CSS, JavaScript and NodeJS at Coderhouse and ITMaster throughout the years. I was also lucky to have to travel to Bangalore, India, while working for Sabre to teach JavaScript, Groovy and Page Composer (Sabre propietary framework).
+            I&apos;ve taught courses on HTML5, CSS, JavaScript and NodeJS at Coderhouse and ITMaster throughout the years. I was also lucky to have to travel to Bangalore, India, while working for Sabre to teach JavaScript, Groovy and Page Composer (Sabre propietary framework).
           </Perk>
         </li>
       </ul>
