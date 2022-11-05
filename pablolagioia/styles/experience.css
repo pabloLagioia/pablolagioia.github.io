@@ -1,0 +1,91 @@
+.experience {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.experience .left-side {
+  width: 30%;
+  display: table-cell;
+  padding-right: 25px;
+  min-height: 100%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.experience .divider {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  bottom: 0;
+  width: 1px;
+  background-color: #444;
+}
+
+.experience .divider::before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 4px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  margin-left: -8px;
+  border-radius: 10px;
+  background-color: #04b4e0;
+  opacity: .25;
+  z-index: 0;
+}
+
+.experience .divider::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 8px;
+  width: 5px;
+  height: 5px;
+  margin-left: -4px;
+  background-color: #222;
+  border-radius: 5px;
+  border: 2px solid #04b4e0;
+  z-index: 1;
+}
+
+.experience .right-side {
+  width: 70%;
+  display: table-cell;
+  padding-left: 25px;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.experience .date-range {
+  color: #aaa;
+  margin: 3px 0;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.light .experience .date-range, .light .experience .company-name {
+  color: #222;
+}
+
+.experience .company-name {
+  display: block;
+  margin: 0 0 4px;
+  font-size: 0.9em;
+  line-height: 1.45em;
+  color: #a5a6a7;
+}
+
+.experience .role {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.experience .description {
+  font-size: .92em;
+  margin-bottom: 10px;
+}

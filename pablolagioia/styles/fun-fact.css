@@ -1,0 +1,33 @@
+.fun-fact {
+  background: #333;
+  padding: 25px 10px 15px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  width: 312px;
+  height: 203px;
+  margin: 0 10px 10px 0;
+}
+
+.fun-fact:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 17px rgb(0 0 0 / 12%);
+}
+
+.light .fun-fact {
+  background: transparent;
+  border-color: #e5e5e5;
+}
+
+.fun-fact h1 {
+  font-size: 16px;
+  margin: 15px;
+}
+
+.fun-fact p {
+  font-size: 36px;
+  line-height: 50px;
+  display: block;
+  margin: 15px 0 10px;
+}
